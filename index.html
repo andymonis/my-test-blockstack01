@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="/node_modules/blockstack/dist/blockstack.js"></script>
+        <script type="module">
+            import Main from "/main.js";
+            new Main();
+        </script>
+        <style>
+            #section-2 { display:none; }
+        </style>
+    </head>
+    <body>
+        <h1>Blockstack HelloWorld</h1>
+        <div id="section-1">
+            <h2>Sign-In with BlockStack</h2>
+            <button id="signin-button">Sign In</button>
+        </div>
+        <div id="section-2">
+            <h2>Sign-Out with BlockStack</h2>
+            <button id="signout-button">Sign Out</button>
+        </div>
+        <div>
+            <h2 id="heading-name"></h2>
+            <img id="avatar-image">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "bshello",
+  "version": "1.0.0",
+  "description": "test blockstack app from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Monis",
+  "license": "ISC",
+  "devDependencies": {
+    "opn": "^4.0.2"
+  },
+  "dependencies": {
+    "blockstack": "^0.15.0"
+  }
+}
